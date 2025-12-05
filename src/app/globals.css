@@ -48,5 +48,8 @@
   --font-inter: var(--font-inter);
   --font-primary: var(--font-instrumentSans);
   --font-jakartaSans: var(--font-jakartaSans);
+  --font-blauer-neu: var(--font-blauer-neu);
+  --font-clash-display: var(--font-clash-display);
+  --font-silka: var(--font-silka);
   --animate-shine: shine var(--duration) infinite linear;
 }
