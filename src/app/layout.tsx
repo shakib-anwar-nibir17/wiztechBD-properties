@@ -128,7 +128,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head></head>
       <body
-        className={`${inter.variable} ${instrumentSans.variable} ${blauerNeu.variable} ${clashDisplay.variable} ${silka.variable} antialiased font-primary `}
+        className={`${inter.variable} ${instrumentSans.variable} ${blauerNeu.variable} ${clashDisplay.variable} ${silka.variable} antialiased font-primary bg-white`}
       >
         <Providers>{children}</Providers>
       </body>

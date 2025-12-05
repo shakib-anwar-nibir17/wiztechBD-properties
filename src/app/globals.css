@@ -57,3 +57,13 @@
   --color-neutral-11: #3c3c3c;
   --animate-shine: shine var(--duration) infinite linear;
 }
+
+.clip-auth {
+  clip-path: url(#authClip);
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(/login.jpg) lightgray 50% / cover no-repeat;
+}
