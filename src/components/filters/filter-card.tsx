@@ -18,7 +18,7 @@ export function FilterCard({
   const [isExpanded, setIsExpanded] = useState(defaultExpanded);
 
   return (
-    <div className="bg-white rounded-[12px] p-6   border border-neutral-200 w-full max-w-sm">
+    <div className="bg-white rounded-[12px] p-6   border border-neutral-200 w-full">
       <div className="flex items-center justify-between mb-4">
         <h3 className="text-xl font-bold text-gray-900">{title}</h3>
         <button

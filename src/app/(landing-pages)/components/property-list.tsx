@@ -20,7 +20,7 @@ export const PropertyList = () => {
     <div className="mt-12 px-[100px]">
       <div className="min-h-screen  w-full flex">
         {/* filters */}
-        <div className="max-w-[340px]">
+        <div className="w-[340px]">
           {/* Header */}
           <div className="flex items-center justify-between p-2 rounded-[12px] border border-neutral-200">
             <h1 className="font-medium !text-[#434953] px-4">

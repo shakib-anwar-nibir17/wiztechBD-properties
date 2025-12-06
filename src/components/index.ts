@@ -16,6 +16,7 @@ export * from "./icons/phone";
 export * from "./icons/reset";
 
 export * from "./filters/filter-card";
+export * from "./filters/property-list-header";
 export * from "./filters/property-type-filter";
 export * from "./filters/rent-budget-filter";
 export * from "./filters/suburb-filter";
