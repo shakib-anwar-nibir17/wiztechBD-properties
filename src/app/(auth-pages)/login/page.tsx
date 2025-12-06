@@ -1,7 +1,9 @@
+import Logo from "@/components/common/logo";
+
 const Login = () => {
   return (
-    <div>
-      <h1>Login</h1>
+    <div className="bg-green-50 w-full h-full flex items-center justify-center">
+      <Logo />
     </div>
   );
 };
