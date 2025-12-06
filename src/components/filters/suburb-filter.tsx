@@ -42,7 +42,7 @@ export function SuburbFilter({
               onCheckedChange={(checked) =>
                 handleChange(suburb.id, checked as boolean)
               }
-              className="w-6 h-6 rounded-md border-2 border-gray-300 data-[state=checked]:bg-[#5E2A3B] data-[state=checked]:border-[#5E2A3B]"
+              className="w-6 h-6 rounded-md border-2 border-gray-300"
             />
             <span className="text-lg text-gray-900">{suburb.label}</span>
           </label>
