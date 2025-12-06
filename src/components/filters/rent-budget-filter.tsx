@@ -52,7 +52,7 @@ export function RentBudgetFilter({
           <div className="absolute w-full h-2 bg-[#D4B5C0] rounded-full" />
           {/* Active track */}
           <div
-            className="absolute h-2 bg-[#5E2A3B] rounded-full"
+            className="absolute h-2 bg-primary-500 rounded-full"
             style={{
               left: `${minPercent}%`,
               width: `${maxPercent - minPercent}%`,
@@ -60,20 +60,20 @@ export function RentBudgetFilter({
           />
           {/* Min Thumb */}
           <div
-            className="absolute w-8 h-8 -mt-3 rounded-full bg-[#5E2A3B] border-4 border-[#D4B5C0] cursor-pointer shadow-md"
+            className="absolute w-8 h-8 -mt-3 rounded-full bg-primary-500 border-4 border-primary-100 cursor-pointer shadow-md"
             style={{ left: `calc(${minPercent}% - 16px)` }}
           >
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-2 h-2 rounded-full bg-[#D4B5C0]" />
+              <div className="w-2 h-2 rounded-full bg-primary-100" />
             </div>
           </div>
           {/* Max Thumb */}
           <div
-            className="absolute w-8 h-8 -mt-3 rounded-full bg-[#5E2A3B] border-4 border-[#D4B5C0] cursor-pointer shadow-md"
+            className="absolute w-8 h-8 -mt-3 rounded-full bg-primary-500 border-4 border-primary-100 cursor-pointer shadow-md"
             style={{ left: `calc(${maxPercent}% - 16px)` }}
           >
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-2 h-2 rounded-full bg-[#D4B5C0]" />
+              <div className="w-2 h-2 rounded-full bg-primary-100" />
             </div>
           </div>
           {/* Hidden range inputs for interaction */}
