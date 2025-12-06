@@ -1,13 +1,9 @@
 import Providers from "@/providers";
 import type { Viewport } from "next";
-import { Instrument_Sans, Inter } from "next/font/google";
+import { Instrument_Sans } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
 const instrumentSans = Instrument_Sans({
   variable: "--font-instrumentSans",
   weight: ["400", "500", "600", "700"],
@@ -128,7 +124,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head></head>
       <body
-        className={`${inter.variable} ${instrumentSans.variable} ${blauerNeu.variable} ${clashDisplay.variable} ${silka.variable} antialiased font-primary bg-white`}
+        className={`${instrumentSans.variable} ${blauerNeu.variable} ${clashDisplay.variable} ${silka.variable} antialiased font-primary bg-white`}
       >
         <Providers>{children}</Providers>
       </body>
