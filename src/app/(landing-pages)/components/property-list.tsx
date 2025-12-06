@@ -2,6 +2,7 @@
 import { useState } from "react";
 import {
   Button,
+  PropertyListHeader,
   PropertyTypeFilter,
   RentBudgetFilter,
   ResetIcon,
@@ -18,7 +19,7 @@ export const PropertyList = () => {
 
   return (
     <div className="mt-12 px-[100px]">
-      <div className="min-h-screen  w-full flex">
+      <div className="min-h-screen  w-full flex gap-6">
         {/* filters */}
         <div className="w-[340px]">
           {/* Header */}
@@ -44,7 +45,13 @@ export const PropertyList = () => {
           </div>
         </div>
         {/* properties */}
-        <div></div>
+        <div className="flex-1">
+          <PropertyListHeader
+            resultCount={10}
+            sortBy="Price"
+            onSortChange={() => {}}
+          />
+        </div>
       </div>
     </div>
   );

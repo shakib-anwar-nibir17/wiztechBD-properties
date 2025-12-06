@@ -9,9 +9,9 @@ import {
 } from "@/components/ui/select";
 
 interface PropertyListHeaderProps {
-  resultCount: number;
-  sortBy: string;
-  onSortChange: (value: string) => void;
+  resultCount?: number;
+  sortBy?: string;
+  onSortChange?: (value: string) => void;
 }
 
 export function PropertyListHeader({
@@ -20,7 +20,7 @@ export function PropertyListHeader({
   onSortChange,
 }: Readonly<PropertyListHeaderProps>) {
   return (
-    <div className="flex items-center justify-between py-4 px-6 bg-gray-50 rounded-lg">
+    <div className="flex items-center justify-between h-[74px] px-4 rounded-[12px] border border-neutral-200">
       {/* Left side - Title and result count */}
       <div className="flex items-center gap-2">
         <h2 className="text-xl font-bold text-gray-900">Property</h2>
