@@ -13,6 +13,7 @@ export * from "./common/navbar";
 export * from "./icons/apple";
 export * from "./icons/google";
 export * from "./icons/phone";
+export * from "./icons/reset";
 
 export * from "./filters/filter-card";
 export * from "./filters/property-type-filter";
