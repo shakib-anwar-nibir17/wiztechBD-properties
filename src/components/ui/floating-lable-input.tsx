@@ -34,7 +34,7 @@ export const FloatingLabelInput = ({
   return (
     <div className="relative">
       <div
-        className={`relative rounded-xl border ${
+        className={`relative rounded-[8px] border ${
           error ? "border-red-400" : "border-gray-200"
         } bg-background transition-all`}
       >
@@ -56,7 +56,7 @@ export const FloatingLabelInput = ({
             setIsFocused(false);
             onBlur();
           }}
-          className="w-full h-16 px-4 pt-6 pb-2 bg-transparent outline-none text-foreground rounded-xl"
+          className="w-full h-[54px] px-4 pt-6 pb-2 bg-transparent outline-none text-foreground rounded-[8px]"
         />
         {showPasswordToggle && (
           <button
