@@ -7,7 +7,7 @@ interface LogoProps {
   className?: string;
 }
 
-const Logo = ({ className }: LogoProps) => {
+export const Logo = ({ className }: LogoProps) => {
   return (
     <Link href={PUBLIC_ROUTES.HOME}>
       <Image
@@ -21,5 +21,3 @@ const Logo = ({ className }: LogoProps) => {
     </Link>
   );
 };
-
-export default Logo;

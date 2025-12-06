@@ -7,6 +7,7 @@ export * from "./ui/scroll-area";
 export * from "./ui/textarea";
 
 export * from "./common/logo";
+export { default as Navbar } from "./common/navbar";
 
 export * from "./icons/apple";
 export * from "./icons/google";

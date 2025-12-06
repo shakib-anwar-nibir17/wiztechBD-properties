@@ -1,5 +1,5 @@
-import CalculatorSection from "@/components/calculator-section";
+import { Navbar } from "../components";
 
 export default function Page() {
-  return <CalculatorSection />;
+  return <Navbar />;
 }
