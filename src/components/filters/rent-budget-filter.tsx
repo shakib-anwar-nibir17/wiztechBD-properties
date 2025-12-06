@@ -45,7 +45,7 @@ export function RentBudgetFilter({
 
   return (
     <FilterCard title="Rent Budget">
-      <div className="pt-2 pb-6">
+      <div className="pt-2">
         {/* Slider Track */}
         <div className="relative h-2 mb-8">
           {/* Background track */}

@@ -36,7 +36,7 @@ export const PropertyList = () => {
           </div>
 
           {/* Filter Components */}
-          <div key={resetKey} className="flex flex-col gap-4">
+          <div key={resetKey} className="flex flex-col gap-4 mt-4">
             <RentBudgetFilter />
             <SuburbFilter />
             <PropertyTypeFilter />
